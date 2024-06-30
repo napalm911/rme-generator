@@ -1,0 +1,188 @@
+from enum import Enum
+
+class OTBMNodeSpecialByte(Enum):
+    START = 0xFE
+    END = 0xFF
+    ESCAPE_CHAR = 0xFD
+
+class OTBMNodeType(Enum):
+    OTBM_MAP_HEADER = 0x00
+    OTBM_MAP_DATA = 0x02
+    OTBM_TILE_AREA = 0x04
+    OTBM_TILE = 0x05
+    OTBM_ITEM = 0x06
+    OTBM_TOWNS = 0x0C
+    OTBM_TOWN = 0x0D
+    OTBM_HOUSETILE = 0x0E
+    OTBM_WAYPOINTS = 0x0F
+    OTBM_WAYPOINT = 0x10
+
+class OTBMTileState(Enum):
+    TILESTATE_NONE = 0x0000
+    TILESTATE_PROTECTIONZONE = 0x0001
+    TILESTATE_DEPRECATED = 0x0002
+    TILESTATE_NOPVP = 0x0004
+    TILESTATE_NOLOGOUT = 0x0008
+    TILESTATE_PVPZONE = 0x0010
+    TILESTATE_REFRESH = 0x0020
+
+class OTBMAttribute(Enum):
+    DESCRIPTION = 0x01
+    EXT_FILE = 0x02
+    TILE_FLAGS = 0x03
+    ACTION_ID = 0x04
+    UNIQUE_ID = 0x05
+    TEXT = 0x06
+    DESC = 0x07
+    TELE_DEST = 0x08
+    ITEM = 0x09
+    DEPOT_ID = 0x0A
+    EXT_SPAWN_FILE = 0x0B
+    RUNE_CHARGES = 0x0C
+    EXT_HOUSE_FILE = 0x0D
+    HOUSEDOORID = 0x0E
+    COUNT = 0x0F
+    DURATION = 0x10
+    DECAY_STATE = 0x11
+    WRITTEN_DATE = 0x12
+    WRITTEN_BY = 0x13
+    SLEEPERGUID = 0x14
+    SLEEPSTART = 0x15
+    CHARGES = 0x16
+    ATTRIBUTE_MAP = 0x80
+
+class OTBMMapVersion(Enum):
+    MAP_OTBM_0 = 0
+    MAP_OTBM_1 = 1
+    MAP_OTBM_2 = 2
+    MAP_OTBM_3 = 3
+
+class OTBMSplashType(Enum):
+    NONE = 0
+    WATER = 1
+    BLOOD = 2
+    BEER = 3
+    SLIME = 4
+    LEMONADE = 5
+    MILK = 6
+    MANAFLUID = 7
+    INK = 8
+    WATER2 = 9
+    LIFEFLUID = 10
+    OIL = 11
+    SLIME2 = 12
+    URINE = 13
+    COCONUT_MILK = 14
+    WINE = 15
+    MUD = 19
+    FRUIT_JUICE = 21
+    LAVA = 26
+    RUM = 27
+    SWAMP = 28
+    TEA = 35
+    MEAD = 43
+
+class OTBMClientVersion(Enum):
+    _750 = 1
+    _755 = 2
+    _760 = 3
+    _770 = 3
+    _780 = 4
+    _790 = 5
+    _792 = 6
+    _800 = 7
+    _810 = 8
+    _811 = 9
+    _820 = 10
+    _830 = 11
+    _840 = 12
+    _841 = 13
+    _842 = 14
+    _850 = 15
+    _854_BAD = 16
+    _854 = 17
+    _855 = 18
+    _860_OLD = 19
+    _860 = 20
+    _861 = 21
+    _862 = 22
+    _870 = 23
+    _871 = 24
+    _872 = 25
+    _873 = 26
+    _900 = 27
+    _910 = 28
+    _920 = 29
+    _940 = 30
+    _944_V1 = 31
+    _944_V2 = 32
+    _944_V3 = 33
+    _944_V4 = 34
+    _946 = 35
+    _950 = 36
+    _952 = 37
+    _953 = 38
+    _954 = 39
+    _960 = 40
+    _961 = 41
+    _963 = 42
+    _970 = 43
+    _980 = 44
+    _981 = 45
+    _982 = 46
+    _983 = 47
+    _985 = 48
+    _986 = 49
+    _1010 = 50
+    _1020 = 51
+    _1021 = 52
+
+
+
+
+# Constants based on the C++ code
+FLAG_UNPASSABLE = 1 << 0
+FLAG_BLOCK_MISSILES = 1 << 1
+FLAG_BLOCK_PATHFINDER = 1 << 2
+FLAG_HAS_ELEVATION = 1 << 3
+FLAG_PICKUPABLE = 1 << 4
+FLAG_MOVEABLE = 1 << 5
+FLAG_STACKABLE = 1 << 6
+FLAG_FLOORCHANGEDOWN = 1 << 7
+FLAG_FLOORCHANGENORTH = 1 << 8
+FLAG_FLOORCHANGEEAST = 1 << 9
+FLAG_FLOORCHANGESOUTH = 1 << 10
+FLAG_FLOORCHANGEWEST = 1 << 11
+FLAG_ALWAYSONTOP = 1 << 12
+FLAG_HANGABLE = 1 << 13
+FLAG_HOOK_EAST = 1 << 14
+FLAG_HOOK_SOUTH = 1 << 15
+FLAG_ALLOWDISTREAD = 1 << 16
+FLAG_ROTABLE = 1 << 17
+FLAG_READABLE = 1 << 18
+FLAG_CLIENTCHARGES = 1 << 19
+FLAG_IGNORE_LOOK = 1 << 20
+
+ROOT_ATTR_VERSION = 0x01
+
+ITEM_GROUP_NONE = 0
+ITEM_GROUP_GROUND = 1
+ITEM_GROUP_SPLASH = 2
+ITEM_GROUP_FLUID = 3
+ITEM_GROUP_CONTAINER = 4
+ITEM_GROUP_DOOR = 5
+ITEM_GROUP_MAGICFIELD = 6
+ITEM_GROUP_TELEPORT = 7
+ITEM_GROUP_RUNE = 8
+
+ITEM_ATTR_SERVERID = 0x10
+ITEM_ATTR_CLIENTID = 0x11
+ITEM_ATTR_SPEED = 0x20
+ITEM_ATTR_LIGHT2 = 0x22
+ITEM_ATTR_TOPORDER = 0x30
+ITEM_ATTR_NAME = 0x31
+ITEM_ATTR_DESCR = 0x32
+ITEM_ATTR_MAXITEMS = 0x33
+ITEM_ATTR_WEIGHT = 0x34
+ITEM_ATTR_ROTATETO = 0x35
+ITEM_ATTR_WRITEABLE3 = 0x36

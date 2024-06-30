@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<houses>
+	<house name="Unnamed House #819" houseid="819" entryx="33532" entryy="31620" entryz="7" rent="0" townid="11" size="48" />
+	<house name="Unnamed House #822" houseid="822" entryx="33561" entryy="31620" entryz="7" rent="0" townid="11" size="32" />
+	<house name="Unnamed House #823" houseid="823" entryx="33566" entryy="31620" entryz="7" rent="0" townid="11" size="32" />
+	<house name="Unnamed House #824" houseid="824" entryx="33574" entryy="31625" entryz="7" rent="0" townid="11" size="50" />
+	<house name="Unnamed House #825" houseid="825" entryx="33574" entryy="31631" entryz="7" rent="0" townid="11" size="50" />
+	<house name="Unnamed House #826" houseid="826" entryx="33526" entryy="31590" entryz="7" rent="0" townid="11" size="70" />
+	<house name="Unnamed House #827" houseid="827" entryx="33534" entryy="31590" entryz="7" rent="0" townid="11" size="70" />
+	<house name="Unnamed House #828" houseid="828" entryx="33547" entryy="31590" entryz="7" rent="0" townid="11" size="70" />
+	<house name="Unnamed House #829" houseid="829" entryx="33560" entryy="31590" entryz="7" rent="0" townid="11" size="60" />
+	<house name="Unnamed House #830" houseid="830" entryx="33567" entryy="31590" entryz="7" rent="0" townid="11" size="60" />
+	<house name="Unnamed House #831" houseid="831" entryx="33589" entryy="31590" entryz="7" rent="0" townid="11" size="323" />
+	<house name="Unnamed House #832" houseid="832" entryx="33512" entryy="31593" entryz="7" rent="0" townid="11" size="144" />
+	<house name="Unnamed House #833" houseid="833" entryx="33558" entryy="31643" entryz="7" rent="0" townid="11" size="49" />
+	<house name="Unnamed House #834" houseid="834" entryx="33569" entryy="31645" entryz="7" rent="0" townid="11" size="35" />
+	<house name="Unnamed House #835" houseid="835" entryx="33562" entryy="31660" entryz="7" rent="0" townid="11" size="16" />
+	<house name="Unnamed House #836" houseid="836" entryx="33571" entryy="31660" entryz="7" rent="0" townid="11" size="13" />
+	<house name="Unnamed House #837" houseid="837" entryx="33557" entryy="31665" entryz="7" rent="0" townid="11" size="15" />
+	<house name="Unnamed House #838" houseid="838" entryx="33567" entryy="31668" entryz="7" rent="0" townid="11" size="30" />
+	<house name="Unnamed House #839" houseid="839" entryx="33571" entryy="31664" entryz="7" rent="0" townid="11" size="24" />
+	<house name="Unnamed House #840" houseid="840" entryx="33571" entryy="31668" entryz="7" rent="0" townid="11" size="15" />
+	<house name="Unnamed House #841" houseid="841" entryx="33584" entryy="31665" entryz="7" rent="0" townid="11" size="281" />
+	<house name="Unnamed House #842" houseid="842" entryx="33499" entryy="31619" entryz="7" rent="0" townid="11" size="43" />
+	<house name="Unnamed House #843" houseid="843" entryx="33494" entryy="31624" entryz="7" rent="0" townid="11" size="210" />
+	<house name="Unnamed House #844" houseid="844" entryx="33477" entryy="31608" entryz="7" rent="0" townid="11" size="53" />
+	<house name="Unnamed House #845" houseid="845" entryx="33469" entryy="31603" entryz="7" rent="0" townid="11" size="15" />
+	<house name="Unnamed House #846" houseid="846" entryx="33462" entryy="31605" entryz="7" rent="0" townid="11" size="169" />
+	<house name="Unnamed House #847" houseid="847" entryx="33456" entryy="31597" entryz="7" rent="0" townid="11" size="303" />
+	<house name="Unnamed House #848" houseid="848" entryx="33468" entryy="31594" entryz="7" rent="0" townid="11" size="170" />
+	<house name="Unnamed House #849" houseid="849" entryx="33556" entryy="31691" entryz="7" rent="0" townid="11" size="163" />
+	<house name="Unnamed House #850" houseid="850" entryx="33490" entryy="31635" entryz="7" rent="0" townid="11" size="45" />
+	<house name="Unnamed House #851" houseid="851" entryx="33497" entryy="31633" entryz="7" rent="0" townid="11" size="36" />
+	<house name="Unnamed House #852" houseid="852" entryx="33497" entryy="31629" entryz="7" rent="0" townid="11" size="48" />
+	<house name="Unnamed House #853" houseid="853" entryx="33484" entryy="31644" entryz="7" rent="0" townid="11" size="72" />
+	<house name="Unnamed House #854" houseid="854" entryx="33500" entryy="31645" entryz="7" rent="0" townid="11" size="60" />
+	<house name="Unnamed House #855" houseid="855" entryx="33486" entryy="31654" entryz="7" rent="0" townid="11" size="63" />
+	<house name="Unnamed House #856" houseid="856" entryx="33496" entryy="31664" entryz="7" rent="0" townid="11" size="143" />
+	<house name="Unnamed House #857" houseid="857" entryx="33522" entryy="31682" entryz="7" rent="0" townid="11" size="105" />
+	<house name="Unnamed House #858" houseid="858" entryx="33513" entryy="31692" entryz="7" rent="0" townid="11" size="55" />
+	<house name="Unnamed House #859" houseid="859" entryx="33559" entryy="31680" entryz="7" rent="0" townid="11" size="92" />
+	<house name="Unnamed House #860" houseid="860" entryx="33510" entryy="31657" entryz="7" rent="0" townid="11" size="20" />
+</houses>
